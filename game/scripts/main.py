@@ -66,8 +66,9 @@ class Piece(pygame.sprite.Sprite):
 
         
 class King(Piece):
-    def __init__(self) -> None:
-        self.position
+    def __init__(self, colour) -> None:
+        if self.colour == "w":
+            
         
         
 if __name__ == "__main__":
